@@ -45,7 +45,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -99,7 +99,7 @@ body {
 
 
 .text {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'abha-bold';
     color: #6D27C6;
 }
@@ -209,7 +209,7 @@ body {
 
 
 .about-section {
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -270,7 +270,7 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -450,7 +450,7 @@ background-attachment: fixed;
 }
 
 .main-projects {
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 @media (max-width: 1200px) {
@@ -564,7 +564,7 @@ background-attachment: fixed;
     }
 
     .text {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .contact-button {
