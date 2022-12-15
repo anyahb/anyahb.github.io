@@ -537,6 +537,10 @@ background-attachment: fixed;
         font-size: 12px;
     }
 
+    .text {
+        font-size: 12px;
+    }
+
 
 }
 
@@ -563,9 +567,7 @@ background-attachment: fixed;
         font-size: 12px;
     }
 
-    .text {
-        font-size: 10px;
-    }
+
 
     .contact-button {
         width: 100px;
