@@ -160,7 +160,7 @@ body {
     align-items: center;
     font-family: 'graphik';
     color: white;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 
@@ -977,7 +977,7 @@ background-attachment: fixed;
     }
 
     .who__main-title {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .about__text {
@@ -1172,7 +1172,7 @@ background-attachment: fixed;
     }
 
     .who__main-title {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .contact-button {
@@ -1219,7 +1219,7 @@ background-attachment: fixed;
 
 
     .who__main-title {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .about__title {
