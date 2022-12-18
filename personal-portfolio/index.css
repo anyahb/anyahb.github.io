@@ -160,7 +160,7 @@ body {
     align-items: center;
     font-family: 'graphik';
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -976,9 +976,7 @@ background-attachment: fixed;
         justify-items: center;
     }
 
-    .who__main-title {
-        font-size: 20px;
-    }
+
 
     .about__text {
         width: 100%;
@@ -1043,6 +1041,8 @@ background-attachment: fixed;
 
 
 }
+
+
 
 
 
@@ -1115,6 +1115,12 @@ background-attachment: fixed;
         width: 100%;
     }
 
+}
+
+@media (max-width: 700px) {
+    .who__main-title {
+        font-size: 20px;
+    }
 }
 
 
