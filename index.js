@@ -4,4 +4,4 @@ var options = {
     backSpeed:100,
     loop: true
 }
-var typed = new Typed('.typing', options)
+var typed = new Typed('.home__typing', options)
