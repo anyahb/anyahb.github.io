@@ -132,7 +132,8 @@ body {
 }
 
 
-.title__contact-form {
+
+.title__projects {
     display: flex;
     font-size: 40px;
     align-items: center;
@@ -143,7 +144,31 @@ body {
 }
 
 
+
+
+
+.title__contact-form {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    font-family: 'graphik';
+    color: white;
+    width: 100%;
+}
+
+
 .title__other-projects {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    font-family: 'graphik';
+    color: white;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.title__projects {
     display: flex;
     font-size: 40px;
     align-items: center;
@@ -905,6 +930,10 @@ form input, textarea {
         justify-content: center;
     }
 
+    .title__projects {
+        justify-content: center;
+    }
+
     .home__info {
         width: 50%;
     }
@@ -952,6 +981,10 @@ form input, textarea {
     }
 
     .title__other-projects {
+        font-size: 30px;
+    }
+
+    .title__projects {
         font-size: 30px;
     }
 
@@ -1176,8 +1209,17 @@ form input, textarea {
         font-size: 24px;
     }
 
+    .title__projects {
+        font-size: 24px;
+    }
+
     .title__about {
         font-size: 24px;
+        padding-bottom: unset;
+    }
+
+    .title {
+        padding-top: unset;
     }
 
 }
@@ -1196,6 +1238,11 @@ form input, textarea {
     .title__other-projects {
         font-size: 30px;
     }
+
+    .title__projects {
+        font-size: 30px;
+    }
+
 
     .title__about {
         font-size: 30px;
@@ -1239,6 +1286,10 @@ form input, textarea {
     }
 
     .title__other-projects {
+        font-size: 20px;
+    }
+
+    .title__projects {
         font-size: 20px;
     }
 
