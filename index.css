@@ -290,6 +290,7 @@ body {
     font-size: 16px;
     width: 120px;
     align-items: center;
+    cursor: pointer;
 }
 
 
@@ -625,6 +626,7 @@ form input, textarea {
     row-gap: 1em;
     opacity: 0.5;
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .background__overlay:hover {
@@ -645,7 +647,7 @@ form input, textarea {
 
 
 .project-right {
-    width: 90%;
+    width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
@@ -674,12 +676,35 @@ form input, textarea {
     gap: 20px;
 }
 
+.project-right__screenshot-1 {
+    width: 50%;
+    height: 330px;
+    max-width: 600px;
+    background: url("./img/minions-screenshot1.png");
+    border-radius: 10px;
+    gap: 20px;
+    max-width: 460px;
+}
+
+.project-right__screenshot-2 {
+    width: 50%;
+    height: 330px;
+    max-width: 600px;
+    background: url("./img/emoji.png");
+    border-radius: 10px;
+    gap: 20px;
+    max-width: 460px;
+    background-position-x: center;
+}
+
+
+
 
 .project-left__screenshot {
     width: 50%;
     height: 330px;
     max-width: 600px;
-    background: url("./img/proj-pic.png");
+    background: url("./img/imgcreativeagency.png");
     border-radius: 10px;
     gap: 20px;
 }
@@ -1022,9 +1047,18 @@ form input, textarea {
 @media (max-width: 900px) {
     .project-right {
         flex-direction: column;
+        align-items: center;
     }
 
     .project-right__screenshot {
+        width: 100%;
+    }
+
+    .project-right__screenshot-1 {
+        width: 100%;
+    }
+
+    .project-right__screenshot-2 {
         width: 100%;
     }
 
@@ -1039,13 +1073,14 @@ form input, textarea {
 
     .project-left {
         flex-direction: column-reverse;
+        align-items: center;
+        width: 80%;
     }
 
     .project-left__description {
-        width: 80%;
-        margin: -100px 0 0;
-        align-items: center;
-        justify-items: unset;
+        width: 100%;
+        margin: unset;
+        padding-top: 20px;
     }
 
     .right-1 {
@@ -1086,15 +1121,23 @@ form input, textarea {
 
     .project-right__content {
         justify-items: center;
+        max-width: 460px;
     }
 
     .project-left__content {
         justify-items: center;
+        max-width: 460px;
     }
 
     .project-right__text {
         font-size: 14px;
         width: 80%;
+    }
+
+    .project-right__description {
+        width: 100%;
+        margin: unset;
+        padding-top: 20px;
     }
 
 }
@@ -1160,6 +1203,7 @@ form input, textarea {
         height: 100%;
     }
 
+
 }
 
 
@@ -1220,6 +1264,30 @@ form input, textarea {
 
     .title {
         padding-top: unset;
+    }
+
+    .project-right__screenshot-1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-left__screenshot {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-right__screenshot-2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-right__screenshot {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-right {
+        width: 80%;
     }
 
 }
