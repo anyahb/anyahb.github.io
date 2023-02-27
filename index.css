@@ -86,7 +86,7 @@ body {
 
 
 .home__text {
-    font-size: 16px;
+    font-size: 20px;
     font-family: "graphik";
     color: #AFAABB;
     line-height: 28px;
@@ -331,7 +331,7 @@ body {
 
 .about__text {
     color: #AFAABB;
-    font-size: 16px;
+    font-size: 20px;
     font-family: graphik;
     width: 80%;
     line-height: 28px;
@@ -968,10 +968,6 @@ form input, textarea {
         width: 100%;
     }
 
-    .about__img {
-        width: 50%;
-    }
-
     .about__skills {
         width: 100%;
     }
@@ -1030,6 +1026,10 @@ form input, textarea {
 
     .enquiry {
         padding-top: unset;
+    }
+
+    .home {
+        padding-bottom: unset;
     }
 
 
@@ -1145,7 +1145,6 @@ form input, textarea {
 
     .home {
         padding-top: 50px;
-        padding-bottom: 50px;
     }
 
     .projects {
@@ -1154,7 +1153,6 @@ form input, textarea {
     }
 
     .about {
-        padding-top: 50px;
         padding-bottom: 50px;
     }
 
@@ -1218,7 +1216,9 @@ form input, textarea {
         height: 100%;
     }
 
-
+    .about__img {
+        width: 80%;
+    }
 }
 
 
@@ -1245,7 +1245,7 @@ form input, textarea {
     }
 
     .home__text {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .project-right__text {
@@ -1257,7 +1257,7 @@ form input, textarea {
     }
 
     .about__text {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .title__contact-form {
