@@ -117,7 +117,7 @@ body {
     align-items: center;
     font-family: graphik;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 
@@ -674,34 +674,36 @@ form input, textarea {
 }
 
 .project-right__screenshot-1 {
-    width: 50%;
-    height: 330px;
-    background: url("./img/minions-screenshot1.png");
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/buynftpic.png);
     border-radius: 10px;
     gap: 20px;
     max-width: 460px;
+    background-repeat: no-repeat;
 }
 
 .project-right__screenshot-2 {
-    width: 50%;
-    height: 330px;
-    background: url("./img/messenger-screen.png");
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/magicpic.png);
     border-radius: 10px;
     gap: 20px;
     max-width: 460px;
-    background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 
 
 
 .project-left__screenshot {
-    width: 50%;
-    height: 330px;
+    width: 100%;
+    height: 400px;
     max-width: 460px;
-    background: url("./img/imgcreativeagency.png");
+    background-image: url(./img/agencyimg.png);
     border-radius: 10px;
     gap: 20px;
+    background-repeat: no-repeat;
 }
 
 .project-right__description {
@@ -966,6 +968,7 @@ form input, textarea {
 
     .about__text {
         width: 100%;
+        text-align: center;
     }
 
     .about__skills {
@@ -1030,6 +1033,10 @@ form input, textarea {
 
     .home {
         padding-bottom: unset;
+    }
+
+    .home__text {
+        text-align: center;
     }
 
 
@@ -1223,13 +1230,12 @@ form input, textarea {
 
 
 @media (max-width: 480px) {
-
     .background {
         width: 250px;
     }
 
     .home__introduction {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .home__cv {
@@ -1245,7 +1251,7 @@ form input, textarea {
     }
 
     .home__text {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .project-right__text {
@@ -1283,22 +1289,22 @@ form input, textarea {
 
     .project-right__screenshot-1 {
         width: 300px;
-        height: 300px;
+        height: 400px;
     }
 
     .project-left__screenshot {
         width: 300px;
-        height: 300px;
+        height: 400px;
     }
 
     .project-right__screenshot-2 {
         width: 300px;
-        height: 300px;
+        height: 400px;
     }
 
     .project-right__screenshot {
         width: 300px;
-        height: 300px;
+        height: 400px;
     }
 
     .project-right {
@@ -1307,6 +1313,18 @@ form input, textarea {
 
     .project-left {
         width: 80%;
+    }
+
+    .background__container {
+        font-size: 16px;
+    }
+
+    .background__description {
+        font-size: 14px;
+    }
+
+    .about__img {
+        width: 60%;
     }
 
 }
