@@ -117,7 +117,7 @@ body {
     align-items: center;
     font-family: graphik;
     color: white;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 
@@ -674,34 +674,36 @@ form input, textarea {
 }
 
 .project-right__screenshot-1 {
-    width: 50%;
-    height: 330px;
-    background: url("./img/minions-screenshot1.png");
+    width: 100%;
+    height: 360px;
+    background-image: url("./img/nft-tokens.jpg");
     border-radius: 10px;
     gap: 20px;
     max-width: 460px;
+    background-repeat: no-repeat;
+    border: 3px solid #58FFE1;
 }
 
 .project-right__screenshot-2 {
-    width: 50%;
-    height: 330px;
-    background: url("./img/messenger-screen.png");
+    width: 100%;
+    height: 360px;
+    background-image: url("./img/messanger-img.jpg");
     border-radius: 10px;
     gap: 20px;
     max-width: 460px;
-    background-position-x: center;
+    background-repeat: no-repeat;
+    border: 3px solid #58FFE1;
 }
-
-
-
 
 .project-left__screenshot {
     width: 50%;
-    height: 330px;
+    height: 360px;
     max-width: 460px;
-    background: url("./img/imgcreativeagency.png");
+    background-image: url("./img/agency-picture.jpg");
     border-radius: 10px;
     gap: 20px;
+    background-repeat: no-repeat;
+    border: 3px solid #58FFE1;
 }
 
 .project-right__description {
@@ -1169,7 +1171,7 @@ form input, textarea {
 
 @media (max-width: 700px) {
     .home__introduction {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -1229,7 +1231,7 @@ form input, textarea {
     }
 
     .home__introduction {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .home__cv {
@@ -1283,17 +1285,17 @@ form input, textarea {
 
     .project-right__screenshot-1 {
         width: 300px;
-        height: 300px;
+        height: 365px;
     }
 
     .project-left__screenshot {
         width: 300px;
-        height: 300px;
+        height: 360px;
     }
 
     .project-right__screenshot-2 {
         width: 300px;
-        height: 300px;
+        height: 360px;
     }
 
     .project-right__screenshot {
@@ -1381,19 +1383,6 @@ form input, textarea {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
