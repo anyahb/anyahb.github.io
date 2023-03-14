@@ -905,6 +905,15 @@ form input, textarea {
 
 
 @media (max-width: 1200px) {
+
+    .home__text {
+        text-align: center;
+    }
+
+    .about__text {
+        text-align: center;
+    }
+
     .home__container {
         display: grid;
     }
