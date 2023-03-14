@@ -84,7 +84,6 @@ body {
     padding-bottom: 20px;
 }
 
-
 .home__text {
     font-size: 20px;
     font-family: "graphik";
@@ -141,10 +140,6 @@ body {
     padding-bottom: 50px;
     width: 100%;
 }
-
-
-
-
 
 .title__contact-form {
     display: flex;
@@ -290,10 +285,8 @@ body {
     cursor: pointer;
 }
 
-
 .home__button {
     text-decoration: none;
-
 }
 
 .button {
